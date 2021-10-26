@@ -258,7 +258,7 @@ body{
     padding: 0px 20px;
 }
 .footer__list li{
-    background: url('img/check-mark.png') left 2px no-repeat;
+    background: url('../img/check-mark.png') left 2px no-repeat;
     padding: 0px 0px 0px 45px;
 }
 
