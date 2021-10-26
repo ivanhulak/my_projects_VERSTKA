@@ -67,13 +67,13 @@ body{
 }
 .town span{
     width: 100%;
-    background: url('img/dot.png') right no-repeat;
+    background: url('../img/3dot.png') right no-repeat;
 }
 /* --------------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------*/
 /* ----------------------------------   JAVA EMPLOYMENT   ------------------------ */
 .java__employment{
-    background: url('img/java.jpg') 300px -80px no-repeat;
+    background: url('../img/java.jpg') 300px -80px no-repeat;
 }
 .java__title{
     text-align: center;
@@ -168,7 +168,7 @@ body{
 /* ----------------------------------   Quastions   ---------------------------------*/
 .quastions{
     padding: 30px 0px 10px 0px;
-    background: url('img/wemen.jpg') center 80px no-repeat;
+    background: url('../img/bg_wemen.jpg') center 80px no-repeat;
 }
 .quastions__title{
     text-align: center;
