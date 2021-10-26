@@ -1,0 +1,310 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    max-width: 1180px;
+    margin: 0px auto;
+}
+.content{
+    flex: 1 1 auto;
+}
+/* --------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------*/
+/* ----------------------------------   TOP MENU   ------------------------------- */
+.top__menu{}
+.menu__row{
+    display: flex;
+    justify-content: space-between;
+}
+.block{
+    background-color: black;
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 28px;
+    margin: 20px 10px;
+    line-height: 50px;
+    padding: 0px 15px;
+}
+.form__edu{
+    width: 25%;
+}
+.measures{}
+.about{
+    width: 20%;
+}
+.contacts{}
+.town{
+    width: 30%;
+}
+.town span{
+    width: 100%;
+    background: url('img/dot.png') right no-repeat;
+}
+/* --------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------*/
+/* ----------------------------------   JAVA EMPLOYMENT   ------------------------ */
+.java__employment{
+    background: url('img/java.jpg') 300px -80px no-repeat;
+}
+.java__title{
+    text-align: center;
+    color: rgb(238, 130, 48);
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+.java__subtitle{
+    text-align: center;
+    font-weight: 800; 
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.java__row{
+    display: flex;
+    justify-content: space-between;
+}
+.java__image{
+    margin: 60px 0px 20px 14px;
+    flex: 0 1 403px;
+}
+.java__body{
+    max-width: 50%;
+    margin: 45px 20px 20px 0px;
+    padding: 12px;
+    max-height: 400px;
+    overflow: scroll;
+}
+.java__column{
+    margin: 0px 0px 22px 0px;
+}
+.orange__circle{
+    background:rgb(232, 127, 47);
+    height: 13px;
+    width: 13px;
+    display: inline-block;
+    border: 3px solid #000;
+    border-radius: 50%;
+    margin: 0px 10px 0px 0px;
+}
+.label{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px 0px 12px 0px;
+}
+.text{
+    color: rgb(34, 47, 40);
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 0px 0px 0px 27px;
+}
+/* --------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------*/
+/* ----------------------------------   Student   ---------------------------------*/
+.graduate{
+    background-color: rgb(31, 31, 31);
+    padding: 15px 0px 0px 0px;
+}
+.student__title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color: #fff;
+    margin: 20px 0px 10px 0px;
+}
+.student__subtitle{
+    text-align: center;
+    font-size: 26px;
+    color: rgb(42, 131, 239);
+    font-weight: 700;
+    margin: 0px 0px 30px 0px;
+}
+.student__row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+}
+.student{
+    flex: 0 1 340px;
+    margin: 0px 0px 30px 0px;
+}
+.student img{
+    display: block;
+    border-radius: 5px;
+}
+/* --------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------*/
+/* ----------------------------------   Quastions   ---------------------------------*/
+.quastions{
+    padding: 30px 0px 10px 0px;
+    background: url('img/wemen.jpg') center 80px no-repeat;
+}
+.quastions__title{
+    text-align: center;
+    font-size: 24px;
+    color: rgb(42, 131, 239);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0px 0px 10px 0px;
+}
+.quastions__subtitle{
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0px 0px 20px 0px;
+}
+.quastions__row{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+.left__column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 30%;
+}
+.right__column{
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+}
+.column{}
+.column__row{
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 3px 0px;
+}
+.number{
+    color: rgb(42, 131, 239);
+    font-weight: 900;
+    font-size: 70px;
+    padding: 0px 10px 0px 20px;
+}
+.column__row__title{
+    color: rgb(238, 130, 48);
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 16px;
+    padding: 0px 10px 0px 0px;
+}
+.column__text{
+    color: rgb(34, 47, 40);
+    line-height: 18px;
+    padding: 5px 10px 5px 20px;
+}
+/* --------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------*/
+/* ----------------------------------   Footer   --------------------------------- */
+.footer{
+    background: rgb(238, 130, 48);
+    height: 10%;
+}
+.footer__row{
+    display: flex;
+    justify-content: space-around;
+}
+.footer__title{
+    max-width: 50%;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 20px 30px 20px 20px;
+    padding: 0px 50px 0px 0px;
+}
+.footer__list{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 20px 50px 20px 20px;
+    padding: 0px 20px;
+}
+.footer__list li{
+    background: url('img/check-mark.png') left 2px no-repeat;
+    padding: 0px 0px 0px 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
